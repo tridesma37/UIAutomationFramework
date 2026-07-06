@@ -1,9 +1,8 @@
 # UI Automation Framework
 
-## Deskripsi
-Framework pengujian UI Website menggunakan Java, Selenium WebDriver, Cucumber, JUnit, dan Gradle.
+Framework pengujian UI Website menggunakan Java, Selenium WebDriver, Cucumber, Gradle, dan JUnit.
 
-## Teknologi
+## Technologies
 - Java
 - Gradle
 - Selenium WebDriver
@@ -11,46 +10,23 @@ Framework pengujian UI Website menggunakan Java, Selenium WebDriver, Cucumber, J
 - JUnit 4
 - WebDriverManager
 
-## Struktur Project
-```
-src
- ├── main
- │    └── java
- │         └── pages
- └── test
-      ├── java
-      │     ├── hooks
-      │     ├── runners
-      │     └── stepdefinitions
-      └── resources
-            └── features
-```
+## Project Structure
+![projek struktur 1.png](../../../projek%20struktur%201.png)
+![projek struktur 2.png](../../../projek%20struktur%202.png)
 
-## Test Case
-### Positive Test
-- Login menggunakan username dan password yang benar.
-### Negative Test
-- Login menggunakan password yang salah.
-### Boundary Test
-- Login menggunakan username kosong.
+## Test Scenarios
+- ✅ Positive Test – Login menggunakan username dan password yang valid.
+- ✅ Negative Test – Login menggunakan password yang salah.
+- ✅ Boundary Test – Login menggunakan username kosong.
+
+## Cucumber Report
+![cucumber report.png](../../../cucumber%20report.png)
 
 ## Cara Menjalankan
-Jalankan class:
-
-```
-TestRunner.java
-```
-
-atau
-
-```
-gradle test
-```
-
-## Hasil
-
-Framework akan menghasilkan laporan HTML pada:
-
-```
+1. Clone repository.
+2. Open project menggunakan IntelliJ IDEA.
+3. Jalankan `TestRunner.java`.
+4. Laporan akan tersedia di:
+```text
 target/cucumber-report.html
 ```
