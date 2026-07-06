@@ -11,8 +11,9 @@ Framework pengujian UI Website menggunakan Java, Selenium WebDriver, Cucumber, G
 - WebDriverManager
 
 ## Project Structure
-![projek struktur 1.png](../../../projek%20struktur%201.png)
-![projek struktur 2.png](../../../projek%20struktur%202.png)
+<img width="355" height="584" alt="projek struktur 1" src="https://github.com/user-attachments/assets/c83b0f0a-88fd-4b7b-bedf-0e5a978446ca" />
+<img width="341" height="272" alt="projek struktur 2" src="https://github.com/user-attachments/assets/cdd7c91a-22d9-431c-807b-317edbec08cc" />
+
 
 ## Test Scenarios
 - ✅ Positive Test – Login menggunakan username dan password yang valid.
@@ -20,7 +21,8 @@ Framework pengujian UI Website menggunakan Java, Selenium WebDriver, Cucumber, G
 - ✅ Boundary Test – Login menggunakan username kosong.
 
 ## Cucumber Report
-![cucumber report.png](../../../cucumber%20report.png)
+<img width="572" height="604" alt="cucumber report" src="https://github.com/user-attachments/assets/6282d61a-7d47-4e1d-8141-a5617aea8d3f" />
+
 
 ## Cara Menjalankan
 1. Clone repository.
